@@ -1,0 +1,159 @@
+{
+  "example_1": {
+    "model_1_whisper": {
+      "standard_wer": 0.0,
+      "lattice_wer": 0.0,
+      "improvement": 0.0,
+      "improved": false
+    },
+    "model_2_wav2vec": {
+      "standard_wer": 0.16666666666666666,
+      "lattice_wer": 0.16666666666666666,
+      "improvement": 0.0,
+      "improved": false
+    },
+    "model_3_conformer": {
+      "standard_wer": 0.0,
+      "lattice_wer": 0.0,
+      "improvement": 0.0,
+      "improved": false
+    },
+    "model_4_deepspeech": {
+      "standard_wer": 0.16666666666666666,
+      "lattice_wer": 0.16666666666666666,
+      "improvement": 0.0,
+      "improved": false
+    },
+    "model_5_custom": {
+      "standard_wer": 0.0,
+      "lattice_wer": 0.0,
+      "improvement": 0.0,
+      "improved": false
+    },
+    "_meta": {
+      "original_reference": [
+        "मैं",
+        "आज",
+        "स्कूल",
+        "जा",
+        "रहा",
+        "हूँ"
+      ],
+      "consensus_transcription": [
+        "मैं",
+        "आज",
+        "स्कूल",
+        "जा",
+        "रहा",
+        "हूँ"
+      ],
+      "reference_length": 6,
+      "consensus_length": 6,
+      "alignment_unit": "word",
+      "trust_threshold": 0.8
+    }
+  },
+  "example_2": {
+    "model_1_whisper": {
+      "standard_wer": 0.2,
+      "lattice_wer": 0.0,
+      "improvement": 0.2,
+      "improved": true
+    },
+    "model_2_wav2vec": {
+      "standard_wer": 0.2,
+      "lattice_wer": 0.0,
+      "improvement": 0.2,
+      "improved": true
+    },
+    "model_3_conformer": {
+      "standard_wer": 0.2,
+      "lattice_wer": 0.0,
+      "improvement": 0.2,
+      "improved": true
+    },
+    "model_4_deepspeech": {
+      "standard_wer": 0.2,
+      "lattice_wer": 0.0,
+      "improvement": 0.2,
+      "improved": true
+    },
+    "model_5_custom": {
+      "standard_wer": 0.0,
+      "lattice_wer": 0.2,
+      "improvement": -0.2,
+      "improved": false
+    },
+    "_meta": {
+      "original_reference": [
+        "यह",
+        "बहुत",
+        "अच्छी",
+        "बात",
+        "है"
+      ],
+      "consensus_transcription": [
+        "यह",
+        "बहुत",
+        "अच्छा",
+        "बात",
+        "है"
+      ],
+      "reference_length": 5,
+      "consensus_length": 5,
+      "alignment_unit": "word",
+      "trust_threshold": 0.8
+    }
+  },
+  "example_3": {
+    "model_1_whisper": {
+      "standard_wer": 0.25,
+      "lattice_wer": 0.0,
+      "improvement": 0.25,
+      "improved": true
+    },
+    "model_2_wav2vec": {
+      "standard_wer": 0.0,
+      "lattice_wer": 0.2,
+      "improvement": -0.2,
+      "improved": false
+    },
+    "model_3_conformer": {
+      "standard_wer": 0.25,
+      "lattice_wer": 0.0,
+      "improvement": 0.25,
+      "improved": true
+    },
+    "model_4_deepspeech": {
+      "standard_wer": 0.25,
+      "lattice_wer": 0.4,
+      "improvement": -0.15000000000000002,
+      "improved": false
+    },
+    "model_5_custom": {
+      "standard_wer": 0.25,
+      "lattice_wer": 0.0,
+      "improvement": 0.25,
+      "improved": true
+    },
+    "_meta": {
+      "original_reference": [
+        "मुझे",
+        "यह",
+        "पसंद",
+        "है"
+      ],
+      "consensus_transcription": [
+        "मुझे",
+        "यह",
+        "बहुत",
+        "पसंद",
+        "है"
+      ],
+      "reference_length": 4,
+      "consensus_length": 5,
+      "alignment_unit": "word",
+      "trust_threshold": 0.8
+    }
+  }
+}

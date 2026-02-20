@@ -1,0 +1,26 @@
+# Hindi Speech Disfluency Detection Pipeline - Requirements
+
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Audio processing
+pydub>=0.25.1
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# ASR with timestamps
+whisper-timestamped>=1.14.0
+openai-whisper>=20231117
+
+# Optional: For better VAD performance (recommended)
+onnxruntime>=1.16.0
+
+# Optional: For forced alignment (advanced)
+# montreal-forced-aligner>=2.2.0
+
+# System requirements:
+# - FFmpeg (for pydub): https://ffmpeg.org/download.html
+# - Python 3.8+

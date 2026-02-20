@@ -1,0 +1,78 @@
+Question - 4) Here, you are given transcriptions from five ASR models for the same audio and
+a human reference, which may contain errors.
+● Design an approach (theory + pseudocode/code) to:
+● Construct a lattice that captures all valid transcription alternatives from the model
+outputs.
+● Handle insertions, deletions, and substitutions in a way that does not unfairly penalize
+models when the reference is wrong.
+● Decide when to trust model agreement over the reference.
+Choose and justify the alignment unit (word / subword / phrase). Then compute WER for each
+model using lattice based transcription and model output
+
+Your me tho
+d
+s
+h
+o
+uld
+r
+e
+d
+u
+c
+e
+W
+E
+R
+fo
+r
+m
+o
+d
+els
+t
+h
+a
+t
+w
+e
+r
+e
+u
+n
+f
+airly
+p
+e
+n
+aliz
+e
+d
+a
+n
+d
+k
+e
+e
+p it
+
+u
+n
+c
+h
+a
+n
+g
+e
+d
+fo
+r
+t
+h
+e
+o
+t
+h
+e
+r
+s.

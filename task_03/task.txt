@@ -1,0 +1,32 @@
+Question-3
+Background
+In a subset of our Hindi conversational dataset, which was human transcribed we have
+identified ~1,77,000 unique words (here). Some of these words are obvious spelling mistakes.
+
+Our goal is to improve transcription accuracy of our dataset. One proposed approach is to
+separate these words into two groups:
+● Words that have 100% accurate spelling
+● Words that are incorrect because they contain spelling mistakes
+The idea is that once we identify the words with errors, we can go back to the corresponding
+audio segments and selectively re-human transcribe only those segments, rather than redoing
+the entire dataset.
+Keep in mind that in our transcription guidelines: English words spoken in the conversation
+are transcribed in Devanagari script. For example, “computer” spoken in English should
+appear as “कंप्यटू र.” In such cases, the Devanagari transcription counts as the correct spelling,
+not an error.
+Your Task
+Identify which of the 1,75,000 words are correctly spelled vs. incorrectly spelled. Share the
+approach you undertook to come to this conclusion.
+Deliverables
+a. Share the final number of unique correct spelled words in the dataset
+b. A google sheet containing 2 columns, one with the the final list of unique words and
+second making them as ‘correct spelling’ and ‘incorrect spelling’
+We are looking for your ability to combine linguistic reasoning with practical data-cleaning
+strategies that balance accuracy and efficiency.
+Important Note: Instructions to access the data :this is the example of a new transcription URL
+https://storage.googleapis.com/upload_goai/967179/825780_transcription.json, the recording
+and metadata follows the same format, please modify the other URL's while processing the data
+
+
+Original URL: https://storage.googleapis.com/joshtalks-data-collection/hq_data/hi/967179/825780_audio.wav
+Working URL: https://storage.googleapis.com/upload_goai/967179/825780_audio.wav
