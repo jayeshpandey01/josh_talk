@@ -1,0 +1,39 @@
+# Model weights and checkpoints (too large for GitHub)
+task_01/whisper-small-hi/
+task_01/whisper-small-hi.zip
+task_01/final_model/
+task_01/datasets/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated output CSVs (re-generated at runtime)
+Categorized_Unique_Words.csv
+
+# Temporary scripts
+/tmp/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
